@@ -1,0 +1,16 @@
+#Name of the website on the tab of your brownser
+name: "Jeff Breitenbuecher"
+#Create a navigation bar.
+navbar:
+  title: "Jeff Breitenbuecher"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: research.html
+
+
+#rendering the outputs of the html into the docs folder.
+output_dir: 'docs'
